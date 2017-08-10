@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/6.2.3"
+		id="com.navigator.Goldcab"
+		version="0.1.7">
+		
+	<name>Goldcab</name>
+	
+	<description>
+    <i>Golden Rides in the City</i>
+	</description>
+	
+	<author href="https:twitter.com/thincology" email="thincology@gmail.com">
+	   Andy Owusu
+	</author>
+	
+		<gap:platform name="android" />
+		<gap:platform name="android" />
+		<plugin name="cordova-plugin-device" spec="1.1.6" />
+		<plugin name="cordova-plugin-splashscreen" spec="4.0.3" />
+		<plugin spec="https://github.com/logicandy/cordova-plugin-dialogs.git#0b532b6" />
+
+		<preference name="phonegap-version" value="" />
+		<preference name="AutoHideSplashScreen" value="false" />
+		<preference name="SplashScreenDelay" value="4000"/>
+		<gap:splash src="splash/splash.png" />
+		<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+		
+		</widget>
